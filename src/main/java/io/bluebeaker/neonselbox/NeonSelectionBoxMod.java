@@ -10,11 +10,11 @@ import org.apache.logging.log4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
 
-@Mod("neonselbox")
+@Mod("neon_selection_box")
 public class NeonSelectionBoxMod
 {
     private static final Logger LOGGER = LogManager.getLogger();
-    public static final String MODID = "neonselbox";
+    public static final String MODID = "neon_selection_box";
     public NeonSelectionBoxMod() {
         MinecraftForge.EVENT_BUS.register(this);
         ModLoadingContext.get().registerConfig(Type.CLIENT, ConfigRegistry.CLIENT_CONFIG);
