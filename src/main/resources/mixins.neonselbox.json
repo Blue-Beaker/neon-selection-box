@@ -1,0 +1,17 @@
+{
+    "required": true,
+    "compatibilityLevel": "JAVA_8",
+    "package": "io.bluebeaker.neonselbox.mixin",
+    "mixins": [
+    ],
+    "client": [
+      "MixinWorldRenderer",
+      "AccessorWorldRenderer"
+    ],
+    "server": [
+    ],
+    "injectors": {
+      "defaultRequire": 1
+    },
+    "refmap": "mixins.neonselbox.refmap.json"
+  }
