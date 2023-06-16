@@ -1,5 +1,5 @@
 # Neon Selection Box [FORGE]
-### A Minecraft mod for tweaking block outlines.  
+### A Minecraft mod for tweaking block selection boxes.  
 
 Features:
 - Tweak Color and Width of the outline.
